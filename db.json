@@ -1,0 +1,32 @@
+{
+  "products":[
+    {
+      "id":1,
+      "name":"Samsung F23",
+      "price":20000,
+      "img":"https://rukminim2.flixcart.com/image/480/640/xif0q/mobile/0/h/k/-original-imagcg22czc3ggvw.jpeg?q=90",
+      "category":"Electronics",
+      "description":"Qualcomm Snapdragon 750G | OctaCore Processor |  2.2 GHz Clock Speed Powerful Performance. No Hang Phone",
+      "ratings":4.2
+    },
+    {
+      "id":2,
+      "name":"Samsung Smart Tv",
+      "price":55000,
+      "img":"https://m.media-amazon.com/images/I/71epOkqT1hL._AC_UF1000,1000_QL80_.jpg",
+      "category":"Electronics",
+      "description":"Samsung 81 cm (32 inches) 32J6300 Full HD Curved LED Smart TV (Silver)",
+      "ratings":4.5
+    },
+    {
+      "id":3,
+      "name":"Sneakers",
+      "price":3000,
+      "img":"https://i.ebayimg.com/images/g/-qYAAOSwYk9i3sZS/s-l1200.jpg",
+      "category":"Fashion",
+      "description":"Red Shoes Men Sneakers Male Casual Mens Shoes Tennis Luxury Trainer Race Breath | eBay",
+      "ratings":4
+    }
+  ],
+  "orders":[]
+}

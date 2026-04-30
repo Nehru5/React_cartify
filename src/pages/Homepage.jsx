@@ -1,13 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import { useNavigate } from 'react-router-dom'
 const Homepage = () => {
+  let navigate = useNavigate()
   return (
     <>
     <Navbar/>
       <div className="hero-section">
         <h1>Welcome to <span style={{color:"orange"}}>Cartify</span>🛒</h1>
         <h2>Discover the best products at unbeatable prices</h2>
-        <button>Shop now</button>
+        <button style={{cursor:"pointer"}} onClick={()=>{navigate("/productspage")}}>Shop now</button>
       </div>
 
       <center><h1>Shop by Category</h1></center>
